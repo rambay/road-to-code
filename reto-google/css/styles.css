@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.wrapperGoogleTemplate {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.headerGoogle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px;
+}
+
+.headerGoogleMenu {
+  margin-right: 8px;
+}
+
+.headerGoogleMenu ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.headerGoogleMenu li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.headerGoogleMenu li:last-child {
+  margin-right: 0;
+}
+
+.headerGoogleMenu__link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  opacity: 0.9;
+}
+
+.headerGoogleMenu__icon {
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -132px -38px;
+  height: 30px;
+  width: 30px;
+  display: block;
+  opacity: 0.55;
+}
+
+.headerGoogleMenu__btnSignIn {
+  color: #fff;
+  background-color: #4386fa;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+}
+
+.signIn {
+  display: flex;
+}
+
+.iconSearch {
+  background-image: url(https://image.flaticon.com/icons/svg/54/54481.svg);
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+}
+
+.mainGoogle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.mainGoogleForm {
+  width: 650px;
+  text-align: center;
+}
+
+.mainGoogleForm .mainGoogle__imageContainer img {
+  width: 100%;
+}
+
+.mainGoogleSearch {
+  padding: 0 20px;
+}
+
+.mainGoogleSearch__input {
+  border: 1px solid #cacaca;
+  border-radius: 50px;
+  height: 45px;
+  margin-bottom: 1em;
+}
+
+.mainGoogleSearch__input:hover {
+  box-shadow: 0 0 6px #dbdbdb;
+}
+
+.mainGoogleSearch__input {
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+  justify-content: center;
+}
+
+.mainGoogleSearch__input input {
+  margin: 0 8px;
+  outline: 0;
+  width: 100%;
+  border: 0;
+}
+
+.mainGoogleSearch__btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.mainGoogleSearch__search {
+  color: #5f6368;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  outline: 0;
+  font-size: 13px;
+  border: 1px solid #f2f2f2;
+  margin-left: 8px;
+  display: block;
+  overflow: hidden;
+}
+
+.mainGoogleSearch__search:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c6c6c6;
+}
+
+.mainGoogleLanguage {
+  font-size: 14px;
+  margin-top: 2em;
+}
+
+.mainGoogleLanguage a {
+  margin: 0 4px;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.mainGoogleLanguage:visited {
+  color: #609;
+}
+
+footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid rgba(0, 0, 0, 0.007);
+}
+
+footer h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #5f6368;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 30px;
+}
+
+.listMenus {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.listMenus nav ul li {
+  padding: 15px;
+}
+
+.listMenus nav:last-child li:last-child {
+  margin-right: 0;
+}
+
+.listMenus ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.listMenus li {
+  list-style: none;
+  margin-right: 1em;
+}
+
+.listMenus a {
+  color: #5f6368;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.listMenus a:hover {
+  text-decoration: underline;
+}

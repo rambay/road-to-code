@@ -1,0 +1,356 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?q6yyjd");
+  src: url("../fonts/icomoon.eot?q6yyjd#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?q6yyjd") format("truetype"),
+    url("../fonts/icomoon.woff?q6yyjd") format("woff"),
+    url("../fonts/icomoon.svg?q6yyjd#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-translate:before {
+  content: "\e900";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-arrow:before {
+  content: "\ea50";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.headerWikipedia {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  width: 300px;
+  margin: 2em auto;
+}
+
+.headerWikipedia__imageContainer {
+  margin: 0;
+}
+
+.headerWikipedia__slogan {
+  margin: 8px 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.headerLogoImage {
+  position: absolute;
+  top: 158px;
+  left: 50px;
+}
+
+.languages a {
+  text-decoration: none;
+}
+
+.languages strong {
+  display: block;
+  color: #3666d6;
+}
+
+.languages small {
+  color: #000;
+}
+
+.languagesCountrys {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  row-gap: 1.8em;
+  width: 600px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.langES {
+  margin-right: 80px;
+}
+
+.langIT {
+  margin-right: 80px;
+}
+
+.langDU,
+.langJP {
+  margin-left: 80px;
+}
+
+.langPY {
+  margin-right: 140px;
+}
+
+.langFR {
+  margin-left: 140px;
+}
+
+.searchWikipedia {
+  display: grid;
+  grid-template-columns: 500px auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  height: 50px;
+}
+
+.searchWrapper {
+  display: flex;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px 0 0 4px;
+  height: inherit;
+  position: relative;
+}
+
+.searchWrapper input:focus {
+  border: 2px solid #3666d6;
+  outline: 1px solid #3666d6;
+}
+
+.searchWrapper input {
+  width: 100%;
+  border: 0;
+  padding: 0.5em 1em;
+  outline: 0;
+}
+
+.languagesList {
+  border: 0;
+  outline: 0;
+  font-weight: lighter;
+  position: absolute;
+  right: 12px;
+  width: 50px;
+  top: 0.6em;
+  bottom: 0.6em;
+}
+
+select:hover {
+  background-color: #f5f5f5;
+}
+
+.searchButton {
+  background-color: #3366cc;
+  height: inherit;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  padding: 0 1em;
+  text-decoration: none;
+  border: 2px solid #3666d6;
+  white-space: nowrap;
+}
+
+.searchButton:hover {
+  background-color: #447ff5;
+  border: 2px solid #3666d6;
+}
+
+.icon-search {
+  color: #fff;
+  font-size: 18px;
+}
+
+.readWikipedia {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 1em;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 2em;
+}
+
+.readWikipedia__btn {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c0c0c0;
+  padding: 0.4em 1em;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+
+.readWikipedia::before {
+  content: "___________";
+  color: #c0c0c0;
+}
+
+.readWikipedia::after {
+  content: "___________";
+  color: #c0c0c0;
+}
+
+.readWikipedia__btn:hover {
+  background-color: #fff;
+}
+
+.readWikipedia__btn i {
+  color: #3366cc;
+}
+
+.icon-arrow {
+  font-weight: bold;
+  transform: rotate(180deg);
+  margin-bottom: 8px;
+}
+
+.readWikipedia__btn p {
+  margin: 0 0.5em;
+  color: #3366cc;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.lineDivision {
+  width: 98%;
+  border: 0;
+  border-bottom: 1px solid #c8ccd1;
+  margin: 2em 0;
+}
+
+.utiliesWikipedia {
+  display: grid;
+  grid-template-columns: 320px 900px;
+  justify-content: space-evenly;
+  padding: 1.5em;
+}
+
+.wikipediaLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
+}
+
+.wikipediaLinks article {
+  display: flex;
+  cursor: pointer;
+}
+
+.about__article {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.imageFoundation,
+.imageIsologoWikipedia {
+  width: 40px;
+  height: 40px;
+  margin-right: 1em;
+}
+
+.about__article p {
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.about__article p a {
+  text-decoration: none;
+  color: #3666d6;
+}
+
+.about__article p a:hover {
+  text-decoration: underline;
+}
+
+.about__article a {
+  text-decoration: none;
+}
+
+.description h2 {
+  margin-top: 0;
+  font-size: 12px;
+  color: #3366cc;
+  cursor: pointer;
+}
+
+.description h2:hover {
+  text-decoration: underline;
+}
+
+.detail {
+  margin-left: 8px;
+}
+
+.about__article {
+  padding: 12px;
+}
+
+.about__article.bottom {
+  background-color: #f8f9fa;
+  padding: 12px;
+  border-radius: 2px;
+}
+
+.detail h3 {
+  font-size: 14px;
+  color: #5b81ce;
+  margin: 0;
+}
+
+.detail p {
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+footer small {
+  font-size: inherit;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3366cc;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.terminos::before,
+.normas::before {
+  content: "\2022";
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 12px;
+  color: #3366cc;
+}
